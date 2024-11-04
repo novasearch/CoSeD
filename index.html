@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <base target="_blank">
+    <meta charset="utf-8">
+    <meta name="description"
+          content="CoSeD">
+    <meta name="keywords" content="Image Generation, AI, ACL">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CoSeD</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="./static/css/bulma.min.css">
+    <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="./static/css/index.css">
+    <link rel="icon" href="./static/images/cosed.png">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="./static/js/fontawesome.all.min.js"></script>
+</head>
+<body>
+
+<section class="hero">
+    <div class="hero-body">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered">
+                <div class="column has-text-centered">
+
+                    <img src="static/images/cosed.png" alt="CoSeD Logo" class="logo"
+                         style="max-width: 150px; margin-bottom: 20px;">
+
+                    <h1 class="title is-1 publication-title">Contrastive Sequential-Diffusion Learning:
+                        Non-linear and Multi-Scene Instructional Video Synthesis</h1>
+                    <h5 class="subtitle is-5 publication-awards"><a href="https://wacv2025.thecvf.com/" target="_blank">WACV 2025</a></h5>
+
+                    <div class="is-size-5 publication-authors">
+                        <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=g_lRa2YAAAAJ&hl=en"
+                   style="color:#008AD7;font-weight:normal;">Vasco Ramos<sup>1</sup></a>,
+            </span>
+
+                        <span class="author-block">
+                <a href="https://yonatanbitton.github.io/" style="color:#008AD7;font-weight:normal;">Yonatan Bitton<sup>2</sup></a>,
+            </span>
+                        <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=GMVxiYgAAAAJ"
+                   style="color:#008AD7;font-weight:normal;">Michal Yarom<sup>2</sup></a>,
+            </span>
+                        <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=0qzwtZAAAAAJ"
+                   style="color:#008AD7;font-weight:normal;">Idan Szpektor<sup>2</sup></a>,
+            </span>
+                        <span class="author-block">
+                <a href="http://ctp.di.fct.unl.pt/~jmag/"
+                   style="color:#008AD7;font-weight:normal;">Joao Magalhaes<sup>1</sup></a>
+            </span>
+                    </div>
+
+                    <div class="is-size-5 publication-authors">
+                        <span class="author-block"><sup>1</sup>Universidade NOVA de Lisboa,</span>
+                        <span class="author-block"><sup>2</sup>Google Research</span>
+                    </div>
+
+                    <div class="column has-text-centered">
+                        <div class="publication-links">
+                            <!-- PDF Link. -->
+                            <span class="link-block">
+                <a href="https://arxiv.org/pdf/2407.11814"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+                            <span class="link-block">
+                <a href="https://arxiv.org/abs/2407.11814"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+                            <!-- Poster Link.
+                            <span class="link-block is-disabled">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Poster</span>
+                </a>
+              </span>
+              -->
+
+                            <!-- Code Link. -->
+                            <span class="link-block">
+                <a href="https://github.com/novasearch/contrastive_sequential_diffusion_learning"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+                            <!-- Dataset Link.
+                            <span class="link-block">
+                              <a href="https://github.com/google/nerfies/releases/tag/0.1"
+                                 class="external-link button is-normal is-rounded is-dark">
+                                <span class="icon">
+                                    <i class="far fa-images"></i>
+                                </span>
+                                <span>Data</span>
+                                </a>
+                              -->
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="hero teaser">
+    <div class="container is-max-desktop">
+        <div class="hero-body">
+            <h2 class="subtitle has-text-centered">
+                Our Contrastive Sequential Video Diffusion (CoSeD) ensures visual consistency in multi-scene videos by
+                selecting
+                the most relevant past scene to guide the next, improving coherence for tasks like recipes and DIY
+                projects.
+            </h2>
+        </div>
+    </div>
+</section>
+
+
+<section class="hero is-light is-small">
+    <div class="hero-body">
+        <div class="container">
+
+            <!-- Add three videos in here -->
+            <div class="columns is-centered">
+                <div class="column is-4">
+                    <div class="video-container">
+                        <video controls>
+                            <source src="static/videos/video_1.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+                <div class="column is-4">
+                    <div class="video-container">
+                        <video controls>
+                            <source src="static/videos/video_2.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+                <div class="column is-4">
+                    <div class="video-container">
+                        <video controls>
+                            <source src="static/videos/video_3.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+
+
+
+
+        </div>
+    </div>
+</section>
+
+
+<section class="section">
+    <div class="container is-max-desktop">
+        <!-- Abstract. -->
+        <div class="columns is-centered has-text-centered">
+            <div class="column is-four-fifths">
+                <h2 class="title is-3">Abstract</h2>
+                <div class="content has-text-justified">
+                    <p>
+                        Generated video scenes for action-centric sequence descriptions like recipe instructions and
+                        do-it-yourself projects include non-linear patterns, in which the next video may require to be
+                        visually consistent not on the immediate previous video but on earlier ones. Current multi-scene
+                        video synthesis approaches fail to meet these consistency requirements. To address this, we
+                        propose a contrastive sequential video diffusion method that selects the most suitable
+                        previously generated scene to guide and condition the denoising process of the next scene. The
+                        result is a multi-scene video that is grounded in the scene descriptions and coherent w.r.t the
+                        scenes that require visual consistency. Experiments with real-world action-centric data
+                        demonstrate the practicality and improved consistency of our model compared to prior work.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container is-max-desktop">
+        <!-- Architecture. -->
+        <div class="columns is-centered has-text-centered">
+            <div class="column is-four-fifths">
+                <h2 class="title is-3">Model Architecture</h2>
+                <a href="static/images/architecture.png" target="_blank">
+                    <img src="static/images/architecture.png" alt="Model Architecture">
+                </a>
+            </div>
+        </div>
+        <!--/ Architecture. -->
+
+        <!-- Examples. -->
+        <div class="columns is-centered has-text-centered">
+            <div class="column is-max-desktop">
+                <h2 class="title is-3">Examples</h2>
+                <p class="subtitle is-6">(click on an image to enlarge)</p>
+                <br>
+                <div class="container example-container carousel">
+                    <a href="static/images/test_image_4.png" target="_blank">
+                        <img src="static/images/test_image_4.png" alt="Example Generation">
+                    </a>
+                    <hr>
+                    <a href="static/images/test_image_5.png" target="_blank">
+                        <img src="static/images/test_image_5.png" alt="Example Generation">
+                    </a>
+                    <hr>
+                    <a href="static/images/test_image_6.png" target="_blank">
+                        <img src="static/images/test_image_6.png" alt="Example Generation">
+                    </a>
+                    <hr>
+                    <a href="static/images/test_image_7.png" target="_blank">
+                        <img src="static/images/test_image_7.png" alt="Example Generation">
+                    </a>
+                </div>
+                <br>
+
+            </div>
+        </div>
+        <!--/ Examples. -->
+
+        <!-- Results. -->
+        <div class="columns is-centered has-text-centered">
+            <div class="column is-four-fifths">
+                <h2 class="title is-3">Results</h2>
+                <img height="500px" width="600px" src="static/images/side-by-side.png" alt="Automatic Evaluation">
+            </div>
+        </div>
+        <!--/ Results. -->
+
+    </div>
+</section>
+
+<section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+        <h2 class="title">BibTeX</h2>
+        <pre><code>@misc{ramos2024contrastivesequentialdiffusionlearningnonlinear,
+      title={Contrastive Sequential-Diffusion Learning: Non-linear and Multi-Scene Instructional Video Synthesis},
+      author={Vasco Ramos and Yonatan Bitton and Michal Yarom and Idan Szpektor and Joao Magalhaes},
+      year={2024},
+      eprint={2407.11814},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2407.11814},
+}</code></pre>
+    </div>
+</section>
+
+<section>
+
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="content has-text-centered">
+            <h1 class="is-1">Acknowledgments</h1>
+        </div>
+        <div class="columns is-centered">
+            <div class="column is-8">
+                <div class="content">
+                    <p>
+                        This website is adapted from <a href="https://nerfies.github.io/">Nerfies</a>, licensed under a
+                        <a rel="license"
+                           href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+                            Commons Attribution-ShareAlike 4.0 International License</a>.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+        <div class="logo-container">
+            <img class="logo" src="static/images/nova-lincs-full.svg" alt="NOVA LINCS">
+            <img class="logo" src="static/images/google-research-full.png" alt="Google Research">
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
