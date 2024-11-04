@@ -8,7 +8,7 @@
 
 [![WACV](https://img.shields.io/badge/WACV-2025-4b44ce.svg)](https://wacv.org/)
 [![arXiv](https://img.shields.io/badge/arXiv-2407.11814-b31b1b.svg)](https://arxiv.org/abs/2407.11814)
-[![Project](https://img.shields.io/badge/Project-Website-9cf.svg)](https://novasearch.github.io/cosed/)
+[![Project](https://img.shields.io/badge/Project-Website-9cf.svg)](https://novasearch.github.io/CoSeD/)
 
 
 
