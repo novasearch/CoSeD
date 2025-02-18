@@ -14,6 +14,8 @@ This is the official repository for Contrastive Sequential-Diffusion Learning: N
 
 ## Code Structure
 
+`9q3eu8vi/checkpoints` - weights available
+
 `generate_only_latents.py` - script for generating images using latents and performing inference with the SoftAttention model
 
 `latents_singleton.py` - contains the `Latents` class, a singleton for managing latent vectors
